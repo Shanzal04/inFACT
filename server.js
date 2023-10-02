@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost/newsletterDB', {
+mongoose.connect('mongodb+srv://shanzalsid:<ac5MhX0sslvfJzbB>@cluster0.4gbmhgm.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
